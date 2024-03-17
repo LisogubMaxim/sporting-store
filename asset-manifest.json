@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sporting-store/static/css/main.65fa3808.css",
+    "main.js": "/sporting-store/static/js/main.a14e03f8.js",
+    "index.html": "/sporting-store/index.html",
+    "main.65fa3808.css.map": "/sporting-store/static/css/main.65fa3808.css.map",
+    "main.a14e03f8.js.map": "/sporting-store/static/js/main.a14e03f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65fa3808.css",
+    "static/js/main.a14e03f8.js"
+  ]
+}
