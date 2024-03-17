@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Запуск проєкта
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Відкрийте браузер та перейдіть за адресою http://, щоб побачити результат.
 
-## Available Scripts
+# Структура проєкта
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+react_test/
+├── public/ # Публічні файли
+│ ├── img/ # Зображення
+│ └── index.html/ # Головний html файл
+├── src/ # Вихідні файли проекту
+│ ├── components/ # Компоненти React
+│ │ ├── Body/ # Компонент, який відповідає за основний вміст сторінки Main.
+│ │ ├── Comment/ # Компонент для відображення коментарів
+│ │ ├── Footer/ # Компонент, який містить інформацію внизу сторінки
+│ │ ├── Header/ # Компонент, що містить верхню частину сторінки
+│ │ ├── HeaderSlider/ # Слайдера, що відображається під шапкою сторінки.
+│ │ ├── HotProducts/ # Компонент, що відображає найпопулярніші товари.
+│ │ ├── Menu/ # Компонент, що відображає навігаційну панель.
+│ │ ├── Product/ # Компонент, що відображає інформацію про товар.
+│ │ ├── Promotion/ # Компонент для підписки на розсилку акцій.
+│ │ ├── SearchPanel/ # Компонент, який містить панель пошуку.
+│ │ ├── Slider/ # Компонент слайдера.
+│ │ └── Сomments/ # Компонент для відображення блока з коментарями.
+│ ├── icons/ # Іконки
+│ ├── pages/ # Основні сторінки програми
+│ ├── App.js # Основний компонент програми
+│ ├── index.js # Точка входу до програми
+│ └── index.scss # Глобальні стилі компонентів
+├── .gitignore # Список файлів та папок, що ігноруються Git
+├── package.json # Файл з метаданими про проект та залежність
+└── README.md # Опис проекту, інструкції та документація

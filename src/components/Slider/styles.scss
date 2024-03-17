@@ -1,0 +1,42 @@
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider {
+    margin-bottom: 80px;
+
+    .top {
+        @include flex;
+        margin-bottom: 30px;
+
+        p {
+            color: #343434;
+            font-weight: 500;
+            font-size: 26px;
+        }
+
+        .arrows {
+            @include flex;
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                margin-right: 30px;
+            }
+
+            .leftArrow {
+                margin-right: 20px;
+            }
+
+            .arrow {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .products {
+        display: flex;
+        gap: 30px;
+    }
+}

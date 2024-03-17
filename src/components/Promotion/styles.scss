@@ -1,0 +1,62 @@
+.promotion {
+    margin-bottom: 108px;
+    .line {
+        background: #959595;
+        width: 100%;
+        height: 1px;
+        margin-bottom: 90px;
+    }
+
+    .title {
+        font-size: 38px;
+        font-weight: 500;
+        color: #343434;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #343434;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .input {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 570px;
+        height: 50px;
+        border: 1px solid #626262;
+        border-radius: 15px;
+        gap: 10px;
+
+        input {
+            outline: 0;
+            border: 0;
+            width: 100%;
+            margin-left: 18px;
+            font-size: 16px;
+            font-weight: 300;
+
+            &::placeholder {
+                color: #959595;
+            }
+        }
+
+        .subscribeButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 169px;
+            background: #626262;
+            border-radius: 15px;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

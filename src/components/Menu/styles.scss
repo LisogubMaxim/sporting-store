@@ -1,0 +1,16 @@
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    @include flex;
+
+    a {
+        margin-right: 30px;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}

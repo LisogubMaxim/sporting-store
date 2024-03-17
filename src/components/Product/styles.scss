@@ -1,0 +1,48 @@
+@mixin text {
+    color: #626262;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.product {
+    .image {
+        width: 370px;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .like {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .description {
+        .name {
+            color: #343434;
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .category {
+            @include text;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            @include text;
+            margin-bottom: 17px;
+        }
+
+        .price {
+            color: #4aaa4e;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+}

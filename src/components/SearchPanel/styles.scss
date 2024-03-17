@@ -1,0 +1,40 @@
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+
+.searchPanel {
+    @include flex;
+
+    justify-content: flex-end;
+
+    .search {
+        @include flex;
+
+        justify-content: space-between;
+        width: 282px;
+        height: 40px;
+        border-radius: 15px;
+        background: #e8e8e8;
+        padding: 0px 9px;
+        margin-right: 20px;
+    }
+
+    input {
+        width: 251px;
+        height: 40px;
+        border: 0;
+        border-radius: 15px;
+        outline: 0;
+        background: #e8e8e8;
+    }
+
+    .heart {
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .basket {
+        cursor: pointer;
+    }
+}

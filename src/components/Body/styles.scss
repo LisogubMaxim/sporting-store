@@ -1,0 +1,50 @@
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    width: 1170px;
+    margin: auto;
+
+    .secondBlock {
+        height: 381px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+
+        .titleText {
+            font-size: 38px;
+            line-height: 50px;
+            margin-bottom: 30px;
+            font-weight: 500;
+            color: #343434;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 40px;
+            color: #626262;
+        }
+
+        img {
+            height: 100%;
+            margin-left: 30px;
+        }
+
+        .toCatalogButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 165px;
+            height: 51px;
+            background: #000000;
+            border-radius: 15px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    }
+}
