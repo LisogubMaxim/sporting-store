@@ -9,9 +9,7 @@ export const Header = () => {
                 <div className="top">
                     <p className="num">098 900 09 09</p>
                     <p>Допомога</p>
-                    <a href="/" className="signIn">
-                        Увійти / Зареєструватися
-                    </a>
+                    <p className="signIn">Увійти / Зареєструватися</p>
                 </div>
             </div>
             <div className="bottomBlock">

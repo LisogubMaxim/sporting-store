@@ -7,21 +7,11 @@ export const Menu = (props) => {
 
     return (
         <div className="menu">
-            <a href="/" style={textColor}>
-                НОВИНКИ
-            </a>
-            <a href="/" style={textColor}>
-                ЧОЛОВІКИ
-            </a>
-            <a href="/" style={textColor}>
-                ЖІНКИ
-            </a>
-            <a href="/" style={textColor}>
-                АКСЕСУАРИ
-            </a>
-            <a href="/" style={textColor}>
-                АКЦІЇ
-            </a>
+            <p style={textColor}>НОВИНКИ</p>
+            <p style={textColor}>ЧОЛОВІКИ</p>
+            <p style={textColor}>ЖІНКИ</p>
+            <p style={textColor}>АКСЕСУАРИ</p>
+            <p style={textColor}>АКЦІЇ</p>
         </div>
     );
 };
