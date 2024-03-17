@@ -6,56 +6,55 @@ import "./styles.scss";
 export const Comments = () => {
     const comments = [
         {
-            profileImage: "/img/profileIcon.png",
+            profileImage: "/sporting-store/img/profileIcon.png",
             stars: 4,
             name: "Жора Ремінгтон",
             text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
         },
         {
-            profileImage: "/img/profileIcon.png",
+            profileImage: "/sporting-store/img/profileIcon.png",
             stars: 4,
             name: "Жора Ремінгтон",
             text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
         },
         {
-            profileImage: "/img/profileIcon.png",
-            stars: 4,
-            name: "Жора Ремінгтон",
-            text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
-        },
-
-        {
-            profileImage: "/img/profileIcon.png",
+            profileImage: "/sporting-store/img/profileIcon.png",
             stars: 4,
             name: "Жора Ремінгтон",
             text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
         },
         {
-            profileImage: "/img/profileIcon.png",
+            profileImage: "/sporting-store/img/profileIcon.png",
             stars: 4,
             name: "Жора Ремінгтон",
             text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
         },
         {
-            profileImage: "/img/profileIcon.png",
+            profileImage: "/sporting-store/img/profileIcon.png",
             stars: 4,
             name: "Жора Ремінгтон",
             text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
         },
         {
-            profileImage: "/img/profileIcon.png",
+            profileImage: "/sporting-store/img/profileIcon.png",
             stars: 4,
             name: "Жора Ремінгтон",
             text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
         },
         {
-            profileImage: "/img/profileIcon.png",
+            profileImage: "/sporting-store/img/profileIcon.png",
             stars: 4,
             name: "Жора Ремінгтон",
             text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
         },
         {
-            profileImage: "/img/profileIcon.png",
+            profileImage: "/sporting-store/img/profileIcon.png",
+            stars: 4,
+            name: "Жора Ремінгтон",
+            text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",
+        },
+        {
+            profileImage: "/sporting-store/img/profileIcon.png",
             stars: 4,
             name: "Жора Ремінгтон",
             text: "Дуже задоволений якістю обслуговування і самою продукцією. Купували термобілизну у подарунок, друзі...",

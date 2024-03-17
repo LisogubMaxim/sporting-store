@@ -4,7 +4,7 @@ import { ArrowLeftIcon } from "../../icons/ArrowLeftIcon";
 import { ArrowRightIcon } from "../../icons/ArrowRightIcon";
 
 export const HeaderSlider = () => {
-    const images = ["/img/slider.png", "/img/slider.png", "/img/slider.png"];
+    const images = ["/sporting-store/img/slider.png", "/sporting-store/img/slider.png", "/sporting-store/img/slider.png"];
 
     const [currentIndex, setCurrentIndex] = useState(0);
 

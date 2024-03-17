@@ -20,7 +20,7 @@ export const Body = () => {
                     </p>
                     <div className="toCatalogButton">До каталогу</div>
                 </div>
-                <img src="/img/bodyImage.png" alt="img"></img>
+                <img src="/sporting-store/img/bodyImage.png" alt="img"></img>
             </div>
             <HotProducts />
             <Promotion />

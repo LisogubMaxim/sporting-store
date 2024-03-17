@@ -4,7 +4,7 @@ import { Slider } from "../Slider/Slider";
 export const HotProducts = () => {
     const products = [
         {
-            image: "/img/product1.png",
+            image: "/sporting-store/img/product1.png",
             name: "Термобілизна для бодібілдерів",
             category: "Для чоловіків",
             description: "2 кольори",
@@ -12,7 +12,7 @@ export const HotProducts = () => {
         },
 
         {
-            image: "/img/product2.png",
+            image: "/sporting-store/img/product2.png",
             name: "Майка для бодібілдерів",
             category: "Для жінок",
             description: "6 кольорів",
@@ -20,7 +20,7 @@ export const HotProducts = () => {
         },
 
         {
-            image: "/img/product3.png",
+            image: "/sporting-store/img/product3.png",
             name: "Ланцюжок для бодібілдерів",
             category: "Аксесуари",
             description: "30 кг.",
@@ -28,7 +28,7 @@ export const HotProducts = () => {
         },
 
         {
-            image: "/img/product1.png",
+            image: "/sporting-store/img/product1.png",
             name: "Термобілизна для бодібілдерів2",
             category: "Для чоловіків",
             description: "2 кольори",
@@ -36,7 +36,7 @@ export const HotProducts = () => {
         },
 
         {
-            image: "/img/product2.png",
+            image: "/sporting-store/img/product2.png",
             name: "Майка для бодібілдерів2",
             category: "Для жінок",
             description: "6 кольорів",
@@ -44,7 +44,7 @@ export const HotProducts = () => {
         },
 
         {
-            image: "/img/product3.png",
+            image: "/sporting-store/img/product3.png",
             name: "Ланцюжок для бодібілдерів2",
             category: "Аксесуари",
             description: "30 кг.",
@@ -52,7 +52,7 @@ export const HotProducts = () => {
         },
 
         {
-            image: "/img/product1.png",
+            image: "/sporting-store/img/product1.png",
             name: "Термобілизна для бодібілдерів3",
             category: "Для чоловіків",
             description: "2 кольори",
@@ -60,7 +60,7 @@ export const HotProducts = () => {
         },
 
         {
-            image: "/img/product2.png",
+            image: "/sporting-store/img/product2.png",
             name: "Майка для бодібілдерів3",
             category: "Для жінок",
             description: "6 кольорів",
